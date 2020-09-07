@@ -12,15 +12,15 @@ For security reasons, I do not offer a compiled version of this application, but
 
 Most cards use an algorithm invented by Hans Peter Luhn, a nice fellow from IBM.\
 \
-According to Luhn’s algorithm, you can determine if a credit card number is (syntactically) valid as follows:\
+According to Luhn’s algorithm, you can determine if a credit card number is (syntactically) valid as follows:
 
-1. Double every second digit from right to left (start from the second digit from the right). If this “doubling” results in a two-digit number, subtract 9 from it get a single digit.\
+1. Double every second digit from right to left (start from the second digit from the right). If this “doubling” results in a two-digit number, subtract 9 from it get a single digit.
 
-2. Now add all single digit numbers from step 1.\
+2. Now add all single digit numbers from step 1.
 
-3. Add all digits in the odd places from right to left in the credit card number (start from the first digit from the right).\
+3. Add all digits in the odd places from right to left in the credit card number (start from the first digit from the right).
 
-4. Sum the results from steps 2 & 3.\
+4. Sum the results from steps 2 & 3.
 
 5. If the result from step 4 is divisible by 10 (no remainders), the card number is valid; otherwise, it is invalid.
 
