@@ -1,8 +1,8 @@
 # Credit Card Verifier (Luhn’s algorithm)
 
-Credit Card Verifier is a small open-source Java console application written by Clément Campagna to verify if a credit card number appears to be valid or not.\
+Credit Card Verifier is a small open-source Java console application that can be used to verify if a credit card number appears to be valid or not.\
 \
-It does not check the credit card number anywhere on the internet but simply applies Luhn’s algorithm to validate or not the credit card number(s) entered by the user.\
+It does not check the credit card number anywhere on the Internet but simply applies Luhn’s algorithm to validate or not the credit card number(s) entered by the user.\
 \
 This application supports arguments parsing and interactive mode.\
 \
@@ -32,5 +32,5 @@ Please feel free to clone this repository, fork it, make changes to the code, su
 
 ### Contact Information:
 
-Author's email adress: clementcampagna+github@gmail.com\
+Author's email address: clementcampagna+github@gmail.com\
 Author's website: https://clementcampagna.com
